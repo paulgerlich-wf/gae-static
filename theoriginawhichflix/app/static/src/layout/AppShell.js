@@ -10,7 +10,7 @@ const REWATCHMOVIE = 2;
 const NOREWATCHMOVIE = 3;
 
 //Global incrementing ID for all movie objects
-id = 4;
+id = 0;
 
 var MovieOrganizer = React.createClass({
     getInitialState: function() {
